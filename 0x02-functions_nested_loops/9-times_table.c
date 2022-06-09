@@ -30,7 +30,7 @@ void times_table(void)
 			if (cone < 9)
 			{
 				_putchar(',');
-				-putchar(' ');
+				_putchar(' ');
 			}
 		}
 		_putchar('\n');
