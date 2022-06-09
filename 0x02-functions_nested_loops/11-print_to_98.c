@@ -31,9 +31,10 @@ void print_to_98(int n)
 			}
 			n--;
 		}
+	}
 		else
 		{
 			printf("98");
 		}
-		printf('\n');
+		printf("\n");
 	}
