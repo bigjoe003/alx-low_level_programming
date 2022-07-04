@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	printf("%\n", _ _file_ _);
+	printf("%\n", __file__);
 
 	return (0);
 }
