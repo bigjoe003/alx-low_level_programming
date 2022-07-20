@@ -2,8 +2,8 @@
 #define LISTS_H
 
 /*
- * file: lists.h
- * Auth: Ojo Joseph
+ * File: lists.h
+ * Auth: OJO JOSEPH (bigjoe003)
  * Desc: Header file containing prototypes and definitions for all functions
  *       and types written in the 0x12-more_singly_linked_lists directory.
  */
@@ -13,9 +13,9 @@
 /**
  * struct listint_s - singly linked list
  * @n: integer
- * @next: points to the next mode
+ * @next: points to the next node
  *
- * description:singly linked list node structure
+ * Description: singly linked list node structure
  * for Holberton project
  */
 typedef struct listint_s
@@ -24,7 +24,7 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
-size_t print_listint(const listint_ *h);
+size_t print_listint(const listint_t *h);
 size_t listint_len(const listint_t *h);
 listint_t *add_nodeint(listint_t **head, const int n);
 listint_t *add_nodeint_end(listint_t **head, const int n);
@@ -40,4 +40,4 @@ size_t print_listint_safe(const listint_t *head);
 size_t free_listint_safe(listint_t **h);
 listint_t *find_listint_loop(listint_t *head);
 
-#endif /* LIST_H */
+#endif /* LISTS_H */
